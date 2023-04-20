@@ -1,0 +1,26 @@
+{
+  "name": "upload01",
+  "version": "1.0.0",
+  "description": "Demonstração de upload de arquivos",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "UPLOAD",
+    "IMAGENS",
+    "ETEC",
+    "NODEJS",
+    "PW3"
+  ],
+  "author": "SAMUEL CURSINO MOYA DE SOUZA",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
